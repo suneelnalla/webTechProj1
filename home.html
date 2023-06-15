@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        #frame-container {
+            display: flex;
+            height: 100vh;
+        }
+        #menu-frame {
+            flex: 0 0 30%;
+        }
+        #content-frame {
+            flex: 1;
+        }
+    </style>
+</head>
+<frameset cols="30%, 70%">
+    <frame src="Menu.html" name="menu" id="menu-frame">
+    <frame src="Actual.html" name="content" id="content-frame">
+</frameset>
+</html>
+    
